@@ -104,7 +104,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <img src="/img/a823f5d0-c85e-4b22-ba91-ef601cb73d31.jpg" alt="Правда НТ" className="h-12 w-auto mr-3" />
+              <img src="https://www.logoai.com/logo/6463613" alt="Правда НТ" className="h-12 w-auto mr-3" />
               <div>
                 <span className="font-bold text-2xl text-foreground">Правда НТ</span>
                 <div className="text-xs text-muted-foreground">Налогово-таможенная практика</div>
@@ -370,7 +370,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="flex items-center justify-center mb-4">
-              <img src="/img/a823f5d0-c85e-4b22-ba91-ef601cb73d31.jpg" alt="Правда НТ" className="h-10 w-auto mr-3" />
+              <img src="https://www.logoai.com/logo/6463613" alt="Правда НТ" className="h-10 w-auto mr-3" />
               <div className="text-center">
                 <span className="font-bold text-xl text-foreground block">Правда НТ</span>
               </div>
