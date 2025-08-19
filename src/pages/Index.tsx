@@ -43,14 +43,17 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Icon name="Scale" className="h-8 w-8 text-primary mr-2" />
-              <span className="font-bold text-xl text-foreground">TaxLegal Pro</span>
+              <img src="/img/a823f5d0-c85e-4b22-ba91-ef601cb73d31.jpg" alt="Правда НТ" className="h-12 w-auto mr-3" />
+              <div>
+                <span className="font-bold text-2xl text-foreground">Правда НТ</span>
+                <div className="text-xs text-muted-foreground">Налогово-таможенная практика</div>
+              </div>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
-                <a href="#" className="text-primary font-medium">Главная</a>
-                <a href="#services" className="text-muted-foreground hover:text-primary transition-colors">Услуги</a>
-                <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">Контакты</a>
+                <a href="#" className="text-secondary font-medium">Главная</a>
+                <a href="#services" className="text-muted-foreground hover:text-secondary transition-colors">Услуги</a>
+                <a href="#contact" className="text-muted-foreground hover:text-secondary transition-colors">Контакты</a>
               </div>
             </div>
           </div>
@@ -63,7 +66,7 @@ const Index = () => {
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
               Налоговые и Таможенные
-              <span className="text-primary block">Консультации</span>
+              <span className="text-secondary block">Консультации</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
               Профессиональная защита ваших интересов в налоговых и таможенных спорах. 
@@ -95,8 +98,8 @@ const Index = () => {
             {services.map((service, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                    <Icon name={service.icon} className="h-6 w-6 text-primary" />
+                  <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
+                    <Icon name={service.icon} className="h-6 w-6 text-secondary" />
                   </div>
                   <CardTitle className="text-xl">{service.title}</CardTitle>
                 </CardHeader>
@@ -121,7 +124,7 @@ const Index = () => {
               </h2>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <Icon name="Award" className="h-6 w-6 text-primary mt-1 mr-4 flex-shrink-0" />
+                  <Icon name="Award" className="h-6 w-6 text-secondary mt-1 mr-4 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Опытные специалисты</h3>
                     <p className="text-muted-foreground">
@@ -130,7 +133,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Icon name="Target" className="h-6 w-6 text-primary mt-1 mr-4 flex-shrink-0" />
+                  <Icon name="Target" className="h-6 w-6 text-secondary mt-1 mr-4 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Индивидуальный подход</h3>
                     <p className="text-muted-foreground">
@@ -139,7 +142,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Icon name="Clock" className="h-6 w-6 text-primary mt-1 mr-4 flex-shrink-0" />
+                  <Icon name="Clock" className="h-6 w-6 text-secondary mt-1 mr-4 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Оперативность</h3>
                     <p className="text-muted-foreground">
@@ -156,15 +159,15 @@ const Index = () => {
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <Icon name="Phone" className="h-5 w-5 text-primary mr-3" />
+                  <Icon name="Phone" className="h-5 w-5 text-secondary mr-3" />
                   <span>+7 (495) 123-45-67</span>
                 </div>
                 <div className="flex items-center">
-                  <Icon name="Mail" className="h-5 w-5 text-primary mr-3" />
-                  <span>info@taxlegal.ru</span>
+                  <Icon name="Mail" className="h-5 w-5 text-secondary mr-3" />
+                  <span>info@pravda-nt.ru</span>
                 </div>
                 <div className="flex items-center">
-                  <Icon name="MapPin" className="h-5 w-5 text-primary mr-3" />
+                  <Icon name="MapPin" className="h-5 w-5 text-secondary mr-3" />
                   <span>Москва, ул. Профсоюзная, 123</span>
                 </div>
               </div>
@@ -181,14 +184,16 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="flex items-center justify-center mb-4">
-              <Icon name="Scale" className="h-8 w-8 text-primary mr-2" />
-              <span className="font-bold text-xl text-foreground">TaxLegal Pro</span>
+              <img src="/img/a823f5d0-c85e-4b22-ba91-ef601cb73d31.jpg" alt="Правда НТ" className="h-10 w-auto mr-3" />
+              <div className="text-center">
+                <span className="font-bold text-xl text-foreground block">Правда НТ</span>
+              </div>
             </div>
             <p className="text-muted-foreground">
               Профессиональные юридические услуги в области налогового и таможенного права
             </p>
             <p className="text-sm text-muted-foreground mt-4">
-              © 2024 TaxLegal Pro. Все права защищены.
+              © 2024 Правда НТ. Все права защищены.
             </p>
           </div>
         </div>
